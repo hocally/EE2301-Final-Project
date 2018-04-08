@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Ur mum
+// Engineer: H-O-Cally and Philly D
 // 
 // Create Date: 04/08/2018 04:41:53 PM
 // Design Name: 
@@ -23,10 +23,11 @@
 module ________(
     
     );
-    
+reg Start;    
 reg [7:0] Mplier;
 reg [7:0] Mcand;
 wire [15:0] Product;
+wire Done;
     
 initial 
 

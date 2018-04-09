@@ -2,10 +2,10 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Sun Apr  8 20:54:22 2018
-# Process ID: 11588
+# Start of session at: Sun Apr  8 20:53:35 2018
+# Process ID: 11148
 # Current directory: C:/Users/phild/Documents/GitHub/EE2301-Final-Project/Final_Project
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2012 C:\Users\phild\Documents\GitHub\EE2301-Final-Project\Final_Project\Final_Project.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8652 C:\Users\phild\Documents\GitHub\EE2301-Final-Project\Final_Project\Final_Project.xpr
 # Log file: C:/Users/phild/Documents/GitHub/EE2301-Final-Project/Final_Project/vivado.log
 # Journal file: C:/Users/phild/Documents/GitHub/EE2301-Final-Project/Final_Project\vivado.jou
 #-----------------------------------------------------------

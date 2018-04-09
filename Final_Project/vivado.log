@@ -2,23 +2,19 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Sun Apr  8 17:31:48 2018
-# Process ID: 9112
-# Current directory: C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14888 C:\Users\H-O-Cally\Documents\GitHub\EE2301-Final-Project\Final_Project\Final_Project.xpr
-# Log file: C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/vivado.log
-# Journal file: C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project\vivado.jou
+# Start of session at: Sun Apr  8 20:53:35 2018
+# Process ID: 11148
+# Current directory: C:/Users/phild/Documents/GitHub/EE2301-Final-Project/Final_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8652 C:\Users\phild\Documents\GitHub\EE2301-Final-Project\Final_Project\Final_Project.xpr
+# Log file: C:/Users/phild/Documents/GitHub/EE2301-Final-Project/Final_Project/vivado.log
+# Journal file: C:/Users/phild/Documents/GitHub/EE2301-Final-Project/Final_Project\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/Final_Project.xpr
-INFO: [Project 1-313] Project file moved from 'C:/Users/phild/Documents/GitHub/EE2301-Final-Project/Final_Project' since last save.
+open_project C:/Users/phild/Documents/GitHub/EE2301-Final-Project/Final_Project/Final_Project.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project' since last save.
 Scanning sources...
 Finished scanning sources
-INFO: [Project 1-230] Project 'Final_Project.xpr' upgraded for this version of Vivado.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/phild/Documents/GitHub/EE2301-Final-Project/Final_Project/Final_Project.ip_user_files', nor could it be found using path 'C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/Final_Project.ip_user_files'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
-open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 770.977 ; gain = 55.680
-close [ open C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/Final_Project.srcs/sources_1/new/multiplier_1_0.v w ]
-add_files C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/Final_Project.srcs/sources_1/new/multiplier_1_0.v
-update_compile_order -fileset sources_1
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/phild/Desktop/Vivado/2017.4/data/ip'.

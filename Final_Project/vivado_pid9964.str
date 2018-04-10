@@ -211,3 +211,214 @@ typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
 // TclEventType: FILE_SET_CHANGE
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 292 seconds
+selectCodeEditor("multiplier_1_0.v", 567, 302); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 228, 264); // cd (w, cj)
+// Elapsed time: 135 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1); // k (j, cj)
+selectCodeEditor("Testbench.v", 235, 47); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+selectCodeEditor("multiplier_1_0.v", 219, 211); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 24 seconds
+selectCodeEditor("multiplier_1_0.v", 177, 446); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 43, 494); // cd (w, cj)
+// Elapsed time: 20 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 5, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+selectCodeEditor("multiplier_1_0.v", 110, 379); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 110, 379, false, false, false, false, true); // cd (w, cj) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 101 MB (+732kb) [00:45:17]
+// Elapsed time: 10 seconds
+selectCodeEditor("multiplier_1_0.v", 199, 203); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 199, 216); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 348, 232); // cd (w, cj)
+// Elapsed time: 30 seconds
+selectCodeEditor("multiplier_1_0.v", 392, 186); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 303, 128); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 3); // k (j, cj)
+selectCodeEditor("Basys3_Master.xdc", 286, 215); // cd (w, cj)
+selectCodeEditor("Basys3_Master.xdc", 382, 170); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+selectCodeEditor("multiplier_1_0.v", 210, 213); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 210, 213); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 123, 208); // cd (w, cj)
+// Elapsed time: 44 seconds
+selectCodeEditor("multiplier_1_0.v", 476, 68); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 217, 218); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 272, 215); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 176, 214); // cd (w, cj)
+// Elapsed time: 26 seconds
+selectCodeEditor("multiplier_1_0.v", 179, 227); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 192, 184); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 214, 169); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 214, 169); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+selectCodeEditor("multiplier_1_0.v", 182, 209); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 182, 209); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 182, 209); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 182, 209); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 214, 212); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 132, 285); // cd (w, cj)
+// Elapsed time: 24 seconds
+selectCodeEditor("multiplier_1_0.v", 144, 92); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 42 seconds
+selectCodeEditor("multiplier_1_0.v", 139, 437); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 139, 437); // cd (w, cj)
+// Elapsed time: 65 seconds
+selectCodeEditor("multiplier_1_0.v", 153, 486); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 139, 485); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 153, 400); // cd (w, cj)
+// Elapsed time: 23 seconds
+selectCodeEditor("multiplier_1_0.v", 251, 440); // cd (w, cj)
+// Elapsed time: 42 seconds
+selectCodeEditor("multiplier_1_0.v", 114, 384); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 190, 332); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 83, 400); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 192, 384); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 175, 382); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("multiplier_1_0.v", 226, 283); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 236, 383); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'c'); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 160, 434); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 173, 416); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("multiplier_1_0.v", 136, 268); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 173, 207); // cd (w, cj)
+// Elapsed time: 13 seconds
+selectCodeEditor("multiplier_1_0.v", 194, 469); // cd (w, cj)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "multiplier_1_0.v", 'c'); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 191, 400); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("multiplier_1_0.v", 291, 376); // cd (w, cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("multiplier_1_0.v", 291, 376); // cd (w, cj)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // aw (f, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1); // k (j, cj)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1, false, true); // k (j, cj) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1); // k (j, cj)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+// Elapsed time: 42 seconds
+selectCodeEditor("multiplier_1_0.v", 163, 177); // cd (w, cj)
+// Elapsed time: 337 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1); // k (j, cj)
+selectCodeEditor("Testbench.v", 104, 121); // cd (w, cj)
+selectCodeEditor("Testbench.v", 105, 111); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 587 MB. GUI used memory: 41 MB. Current time: 4/10/18 2:49:51 PM CDT
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1); // k (j, cj)
+selectCodeEditor("Testbench.v", 98, 198); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1); // k (j, cj)
+selectCodeEditor("Testbench.v", 80, 247); // cd (w, cj)
+selectCodeEditor("Testbench.v", 47, 333); // cd (w, cj)
+selectCodeEditor("Testbench.v", 47, 333, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 31 seconds
+selectCodeEditor("Testbench.v", 122, 453); // cd (w, cj)
+selectCodeEditor("Testbench.v", 204, 409); // cd (w, cj)
+selectCodeEditor("Testbench.v", 220, 401); // cd (w, cj)
+selectCodeEditor("Testbench.v", 250, 383); // cd (w, cj)
+selectCodeEditor("Testbench.v", 135, 257); // cd (w, cj)
+selectCodeEditor("Testbench.v", 136, 251); // cd (w, cj)
+// Elapsed time: 14 seconds
+selectCodeEditor("Testbench.v", 40, 270); // cd (w, cj)
+// Elapsed time: 18 seconds
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 54 seconds
+selectCodeEditor("Testbench.v", 110, 258); // cd (w, cj)
+// Elapsed time: 13 seconds
+selectCodeEditor("Testbench.v", 150, 224); // cd (w, cj)
+selectCodeEditor("Testbench.v", 72, 267); // cd (w, cj)
+selectCodeEditor("Testbench.v", 92, 187); // cd (w, cj)
+selectCodeEditor("Testbench.v", 44, 264); // cd (w, cj)
+selectCodeEditor("Testbench.v", 126, 152); // cd (w, cj)
+selectCodeEditor("Testbench.v", 104, 266); // cd (w, cj)
+// Elapsed time: 42 seconds
+selectCodeEditor("Testbench.v", 310, 276); // cd (w, cj)
+selectCodeEditor("Testbench.v", 41, 258); // cd (w, cj)
+selectCodeEditor("Testbench.v", 44, 256); // cd (w, cj)
+selectCodeEditor("Testbench.v", 98, 216); // cd (w, cj)
+selectCodeEditor("Testbench.v", 45, 265); // cd (w, cj)
+selectCodeEditor("Testbench.v", 113, 167); // cd (w, cj)
+// Elapsed time: 136 seconds
+selectCodeEditor("Testbench.v", 82, 215); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 2); // k (j, cj)
+selectCodeEditor("multiplier_1_0.v", 50, 197); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 1); // k (j, cj)
+selectCodeEditor("Testbench.v", 28, 199); // cd (w, cj)
+typeControlKey((HResource) null, "Testbench.v", 'v'); // cd (w, cj)
+selectCodeEditor("Testbench.v", 189, 197); // cd (w, cj)
+selectCodeEditor("Testbench.v", 211, 153); // cd (w, cj)
+selectCodeEditor("Testbench.v", 118, 237); // cd (w, cj)
+selectCodeEditor("Testbench.v", 140, 227); // cd (w, cj)
+selectCodeEditor("Testbench.v", 139, 224); // cd (w, cj)
+selectCodeEditor("Testbench.v", 115, 214); // cd (w, cj)
+selectCodeEditor("Testbench.v", 41, 213); // cd (w, cj)
+selectCodeEditor("Testbench.v", 121, 138); // cd (w, cj)
+selectCodeEditor("Testbench.v", 52, 219); // cd (w, cj)
+selectCodeEditor("Testbench.v", 52, 219, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("Testbench.v", 99, 152); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED

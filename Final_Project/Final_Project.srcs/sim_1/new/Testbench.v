@@ -20,27 +20,29 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ________(
+module multiplier_1_sim();
+    reg start;    
+    reg [7:0] a;
+    reg [7:0] b;
+    reg clk;
+    wire [15:0] out;
+    wire done;
     
+    multiplier_1_0 Instance_kek(
+    .Mcand(a),
+    .Mplier(b)
     );
-reg Start;    
-reg [7:0] Mplier;
-reg [7:0] Mcand;
-wire [15:0] Product;
-wire Done;
-    
 initial 
-
     begin
-    Mplier = 0; Mcand = 8'b10101110;
+    a = 0; b = 8'b10101110;
     #50
-    Mplier = 1; Mcand = 8'b10101110;
+    a = 1; b = 8'b10101110;
     #50
-    Mplier = 8'b10101110; Mplier = 1;
+    a = 8'b10101110; b = 1;
     #50
-    Mplier = 8; Mcand = 80;
+    a = 8; b = 80;
     #50
-    Mplier = 100; Mcand = 15;
+    a = 100; b = 15;
     end 
     
 endmodule

@@ -1,0 +1,213 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 9964
+License: Customer
+
+Current time: 	Tue Apr 10 13:49:10 CDT 2018
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 124 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	H-O-Cally
+User home directory: C:/Users/H-O-Cally
+User working directory: C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.4
+RDI_DATADIR: C:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/H-O-Cally/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/H-O-Cally/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/H-O-Cally/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/vivado.log
+Vivado journal file location: 	C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/vivado.jou
+Engine tmp dir: 	C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/.Xil/Vivado-9964-LAPTOP-LPSVHG67
+
+GUI allocated memory:	170 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 516 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 60 MB (+60256kb) [00:00:08]
+// [Engine Memory]: 462 MB (+333388kb) [00:00:08]
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\H-O-Cally\Documents\GitHub\EE2301-Final-Project\Final_Project\Final_Project.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/Final_Project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/Final_Project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 72 MB (+9817kb) [00:00:12]
+// [Engine Memory]: 529 MB (+45272kb) [00:00:12]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 38 MB. Current time: 4/10/18 1:49:14 PM CDT
+// Project name: Final_Project; location: C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 732.328 ; gain = 28.188 
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (multiplier_1_0.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier_1_0 (multiplier_1_0.v)]", 1, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier_1_0 (multiplier_1_0.v)]", 1, false, false, false, false, false, true); // B (D, cj) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, multiplier_1_0 (multiplier_1_0.v)]", 6, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, multiplier_1_0 (multiplier_1_0.v)]", 6, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ________ (Testbench.v)]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ________ (Testbench.v)]", 5, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, multiplier_1_0 (multiplier_1_0.v)]", 6, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, multiplier_1_0 (multiplier_1_0.v)]", 6, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 2); // k (j, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier_1_0 (multiplier_1_0.v)]", 1, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier_1_0 (multiplier_1_0.v)]", 1, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [Engine Memory]: 566 MB (+11697kb) [00:00:43]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Testbench.v", 2); // k (j, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 578 MB. GUI used memory: 39 MB. Current time: 4/10/18 1:49:47 PM CDT
+selectCodeEditor("Testbench.v", 233, 130); // cd (w, cj)
+selectCodeEditor("Testbench.v", 233, 130); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_1_0.v", 1); // k (j, cj)
+// [GUI Memory]: 77 MB (+1091kb) [00:01:08]
+// [GUI Memory]: 81 MB (+118kb) [00:01:23]
+// [GUI Memory]: 86 MB (+792kb) [00:09:03]
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 869 seconds
+floatView(PAResourceOtoP.PAViews_CODE, "multiplier_1_0.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+dockFrame(PAResourceOtoP.PAViews_CODE, "multiplier_1_0.v"); // ax (aF, FrameFloatingContainer)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// Elapsed time: 20 seconds
+selectCodeEditor("multiplier_1_0.v", 182, 448); // cd (w, cj)
+// Elapsed time: 85 seconds
+selectCodeEditor("multiplier_1_0.v", 99, 464); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 2, 384); // cd (w, cj)
+// Elapsed time: 13 seconds
+selectCodeEditor("multiplier_1_0.v", 117, 464); // cd (w, cj)
+// [GUI Memory]: 90 MB (+386kb) [00:18:23]
+// Elapsed time: 128 seconds
+selectCodeEditor("multiplier_1_0.v", 73, 403); // cd (w, cj)
+// Elapsed time: 128 seconds
+selectCodeEditor("multiplier_1_0.v", 79, 250); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 175, 260); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 175, 260); // cd (w, cj)
+// Elapsed time: 96 seconds
+selectCodeEditor("multiplier_1_0.v", 319, 201); // cd (w, cj)
+// Elapsed time: 11 seconds
+selectCodeEditor("multiplier_1_0.v", 319, 201); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 178, 436); // cd (w, cj)
+// Elapsed time: 20 seconds
+selectCodeEditor("multiplier_1_0.v", 301, 268); // cd (w, cj)
+// [GUI Memory]: 96 MB (+858kb) [00:24:54]
+// Elapsed time: 53 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 48 seconds
+selectCodeEditor("multiplier_1_0.v", 43, 218); // cd (w, cj)
+// Elapsed time: 141 seconds
+selectCodeEditor("multiplier_1_0.v", 330, 105); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 152, 403); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 152, 403, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("multiplier_1_0.v", 146, 442); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 102, 436); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 102, 436, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 76 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 60 seconds
+selectCodeEditor("multiplier_1_0.v", 119, 347); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 153, 499); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 578 MB. GUI used memory: 40 MB. Current time: 4/10/18 2:19:47 PM CDT
+// Elapsed time: 27 seconds
+selectCodeEditor("multiplier_1_0.v", 139, 453); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 139, 453); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 139, 453, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("multiplier_1_0.v", 139, 453); // cd (w, cj)
+// Elapsed time: 91 seconds
+selectCodeEditor("multiplier_1_0.v", 161, 467); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 106, 452); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 106, 451); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 110, 451); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 171, 421); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 164, 450); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 318, 188); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 114, 449); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 192, 428); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 147, 456); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 173, 473); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 129, 470); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 139, 455); // cd (w, cj)
+// Elapsed time: 80 seconds
+typeControlKey((HResource) null, "multiplier_1_0.v", 'c'); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectCodeEditor("multiplier_1_0.v", 303, 365); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 303, 365, false, false, false, true, false); // cd (w, cj) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_INDENT_SELECTION, "Indent Selection"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("multiplier_1_0.v", 277, 359); // cd (w, cj)
+// Elapsed time: 31 seconds
+selectCodeEditor("multiplier_1_0.v", 31, 283); // cd (w, cj)
+selectCodeEditor("multiplier_1_0.v", 73, 261); // cd (w, cj)
+// Elapsed time: 27 seconds
+selectCodeEditor("multiplier_1_0.v", 0, 278); // cd (w, cj)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "multiplier_1_0.v", 'c'); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "multiplier_1_0.v", 'v'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED

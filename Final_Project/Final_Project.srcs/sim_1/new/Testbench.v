@@ -40,13 +40,13 @@ module multiplier_1_sim();
 initial 
     begin
     clk = 0;
-    a = 0; b = 8'b10101110; start = 1; #20 start = 0;
-    #200
-    a = 1; b = 8'b10101110; start = 1; #20 start = 0;
-    #200
-    a = 8'b10101110; b = 0; start = 1; #20 start = 0;
-    #200
-    a = 8'b10101110; b = 0; start = 1; #20 start = 0;
+    a = 0; b = 8'b10101110; start = 1; #180
+    start = 0; #20
+    a = 1; b = 8'b10101110; start = 1; #180
+    start = 0; #20
+    a = 8'b10101110; b = 0; start = 1; #180
+    start = 0; #20
+    a = 8'b10101110; b = 0; start = 1;
 end 
     always
         #5 clk = !clk;

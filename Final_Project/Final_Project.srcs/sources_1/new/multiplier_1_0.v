@@ -56,7 +56,7 @@ module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
 			NextState = 2;
 			end
 		2:begin
-			out	= (out + Mcand) << 0;
+			out	= out + (Mcand << 0);
 			NextState = 3;
 			end
 		3:if(Mplier[1] == 1'b0) begin
@@ -66,7 +66,7 @@ module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
 			NextState = 4;
 			end
 		4:begin
-			out = (out + Mcand) << 1;
+			out = out + (Mcand << 1);
 			NextState = 5;
 			end
 		5:if(Mplier[2] == 1'b0) begin
@@ -76,7 +76,7 @@ module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
 			NextState = 6;
 			end
 		6:begin
-			out	= (out + Mcand) << 2;
+			out	= out + (Mcand << 2);
 			NextState = 7;
 			end
 		7:if(Mplier[3] == 1'b0) begin
@@ -86,7 +86,7 @@ module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
 			NextState = 8;
 			end
 		8:begin
-			out = (out + Mcand) << 3;
+			out = out + (Mcand << 3);
 			NextState = 9;
 			end
 		9:if(Mplier[4] == 1'b0) begin
@@ -96,7 +96,7 @@ module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
 			NextState = 10;
 			end
 		10:begin
-			out = (out + Mcand) << 4;
+			out = out + (Mcand << 4);
 			NextState = 11;
 			end
 		11:if(Mplier[5] == 1'b0) begin
@@ -106,7 +106,7 @@ module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
 			NextState = 12;
 			end
 		12:begin
-			out = (out + Mcand) << 5;
+			out = out + (Mcand << 5);
 			NextState = 13;
 			end
 		13:if(Mplier[6] == 1'b0) begin
@@ -116,7 +116,7 @@ module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
 			NextState = 14;
 			end
 		14:begin
-			out	= (out + Mcand) << 6;
+			out	= out + (Mcand << 6);
 			NextState = 15;
 			end
 		15:if(Mplier[7] == 1'b0) begin
@@ -127,7 +127,7 @@ module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
 			NextState = 16;
 			end
 		16:begin
-			out = (out + Mcand) << 7;
+			out = out + (Mcand << 7);
 			NextState = 0;
 			done = 1;
 			end

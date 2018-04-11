@@ -12,3 +12,5 @@
 start_gui
 open_project C:/Users/H-O-Cally/Documents/GitHub/EE2301-Final-Project/Final_Project/Final_Project.xpr
 update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1

@@ -30,19 +30,32 @@ module multiplier_1_sim();
     
     multiplier_1_0 Instance_kek(
     .Mcand(a),
-    .Mplier(b)
+    .Mplier(b),
+    .clock(clk),
+    .start(start),
+    .out(out),
+    .done(done)
+    
     );
 initial 
     begin
-    a = 0; b = 8'b10101110;
+    a = 0; b = 8'b10101110; start = 1;
     #50
-    a = 1; b = 8'b10101110;
+    start = 0;
     #50
-    a = 8'b10101110; b = 1;
+    a = 1; b = 8'b10101110; start = 1;
     #50
-    a = 8; b = 80;
+    start = 0;
     #50
-    a = 100; b = 15;
+    a = 8'b10101110; b = 1; start = 1;
+    #50
+    start = 0;
+    #50
+    a = 8; b = 80; start = 1;
+    #50
+    start = 0;
+    #50
+    a = 100; b = 15; start = 1;
     end 
     
 endmodule

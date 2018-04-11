@@ -25,7 +25,7 @@ module multiplier_1_0(Mplier, Mcand, clock, out, start, done);
     input [7:0] Mcand;
     input clock;
     input start;
-    output reg [15:0] out = 16'b0000000000000000;
+    output reg [15:0] out = 16'b0000000000000001;
     output reg done = 1'b0;
     reg [2:0] State=5'b00000, NextState=5'b00000;
 

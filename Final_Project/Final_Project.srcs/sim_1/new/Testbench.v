@@ -39,6 +39,7 @@ module multiplier_1_sim();
     );
 initial 
     begin
+    clk = 0;
     a = 0; b = 8'b10101110; start = 1;
     #50
     start = 0;
@@ -57,5 +58,6 @@ initial
     #50
     a = 100; b = 15; start = 1;
     end 
-    
+    always
+        #5 clk = !clk;
 endmodule

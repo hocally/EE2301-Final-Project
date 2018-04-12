@@ -12,6 +12,12 @@
       <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/multiplier_1_0.bin"/>
       <Properties Property="SLR.COUNT" value="C:/Users/H-O-Cally/AppData/Roaming/Xilinx/Vivado/1"/>
     </Object>
+    <Object name="xc7a35t_0_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value=""/>
+      <Properties Property="PROBES.FILE" value=""/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/multiplier_1_0.bin"/>
+      <Properties Property="SLR.COUNT" value="C:/Users/H-O-Cally/AppData/Roaming/Xilinx/Vivado/1"/>
+    </Object>
   </ObjectList>
   <probeset name="hw project" active="false"/>
 </hwsession>

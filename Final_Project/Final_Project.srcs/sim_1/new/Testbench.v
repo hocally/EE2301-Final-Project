@@ -40,19 +40,7 @@ module multiplier_1_sim();
 initial 
     begin
     clk = 0;
-    a = 75; b = 100; start = 1; #180
-    start = 0; #20
-    a = 'h01; b = 'hAE; start = 1; #180
-    //start = 0; #20
-    a = 'hAE; b = 'h01; start = 1; #180
-    start = 0; #20
-    a = 1; b = 1; start = 1; #180
-    start = 0; #20
-    a = 2; b = 2; start = 1; #180
-    start = 0; #20
-    a = 4; b = 4; start = 1; #180
-    start = 0; #20
-    a = 8; b = 8; start = 1; #180
+    a = 20; b = 20; start = 1; #1000
     start = 0;
 end 
     always

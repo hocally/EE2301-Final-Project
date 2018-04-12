@@ -20,31 +20,26 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
+module	multiplier_1_0(Mplier, Mcand, clock, out, Start, Done);
 	input [7:0] Mplier;
 	input [7:0] Mcand;
 	input clock;
-	input start;
+	input Start;
 	output reg [15:0] out = 16'b0000000000000000;
-	output reg done	= 1'b0;
+	output reg Done	= 1'b1;
 	reg [5:0] State=5'b00000, NextState=5'b00000;
-	reg go = 1'b0;
 
 //state	register
 	always	@(posedge clock)
 		State <= NextState;
-		
-	always @(posedge start)
-		go = 1'b1;
 	
 	//state	stuff
 	always @(negedge clock)
-		case(State)
-		0:if(go) begin
+		case(State)	
+		0:if(Start == 1) begin
 			out	= 0;
 			NextState = 1;
-			done = 0;
-			go = 0;
+			Done = 1;
 		end
 		else begin
 			NextState =	0;
@@ -120,17 +115,24 @@ module	multiplier_1_0(Mplier, Mcand, clock, out, start, done);
 			NextState = 15;
 			end
 		15:if(Mplier[7] == 1'b0) begin
-			NextState = 0;
-			done = 1;
+			NextState = 17;
+			Done = 0;
 			end
 		else begin
 			NextState = 16;
 			end
 		16:begin
 			out = out + (Mcand << 7);
-			NextState = 0;
-			done = 1;
+			NextState = 17;
+			Done = 0;
 			end
+		17:if(Start == 1) begin
+			NextState = 17;
+			end
+		else begin
+			NextState = 0;
+			end
+		
 	endcase
 
 

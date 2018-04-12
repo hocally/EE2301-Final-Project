@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"multiplier_1_sim_func_impl.v" \
+"../../../../../Final_Project.srcs/sim_1/new/Testbench.v" \
+
+# Do not sort compile order
+nosort
